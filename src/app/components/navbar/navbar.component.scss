@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: center;
+  font-family: Poppins;
+}
+
+.header > h1 {
+  font-size: 1.5em;
+  margin-left: 1em;
+}
+
+.header > h1 > span {
+  color: green;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  vertical-align: center;
+}
+
+nav > ul > li {
+  margin: auto 1em;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: #1f1f1f;
+  border-radius: 2em;
+  transition: ease-out 0.1s;
+  padding: 0.7em;
+}
+
+nav > ul > li > a:hover {
+  color: #e1e0e0;
+  transition: ease-in 0.1s;
+  transition: ease-in 0.1s;
+  background-color: green;
+}

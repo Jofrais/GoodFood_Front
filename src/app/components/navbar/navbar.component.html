@@ -1,0 +1,16 @@
+<nav>
+  <div class="header">
+    <h1>Good<span>Food</span></h1>
+  </div>
+  <ul>
+    <li>
+      <a href="#" *ngIf="connected">Mes commandes</a>
+    </li>
+    <li>
+      <a href="#" *ngIf="connected; else accountElse">Mon compte</a>
+      <ng-template #accountElse>
+        <a href="#">Se connecter</a>
+      </ng-template>
+    </li>
+  </ul>
+</nav>
